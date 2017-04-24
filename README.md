@@ -1,5 +1,5 @@
-(U)EFI Whitelisting Project
-===========================
+Known (U)EFI Executables
+========================
 
 THE JSON FILES ARE PROVIDED 'AS IS' WITH ALL FAULTS. MCAFEE MAKES NO REPRESENTATIONS OR WARRANTIES, AND DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, AS TO THE USE, PERFORMANCE OR ACCURACY OF THE JSON FILES. THE JSON FILES MAY HAVE ERRORS OR DEFECTS, AND ANY USE IS AT THE USER'S OWN RISK.
 
@@ -53,20 +53,22 @@ Contents of JSON files are **known** EFI executables extracted from vendor (U)EF
 
 # Current contents
 
-**Number of unique EFI executables**
+**Unique (U)EFI firmware images: 13480**
 
-JSON file | Number of EFI executables
---------- | -------------------------
-efi_acer.json | 37292
-efi_asrock.json | 26168
-efi_asus.json | 559857
-efi_dell.json | 485970
-efi_gigabyte.json | 168119
-efi_hp.json | 102631
-efi_intel.json | 106924
-efi_lenovo.json | 166212
-efi_msi.json | 271365
-**Total** | **1910649**
+**Unique EFI executables: 1910649**
+
+Manufacturer | JSON file(s) | Number of EFI executables
+------------ | ------------ | -------------------------
+Acer | efi_acer.json | 37292
+ASRock | efi_asrock.json | 26168
+ASUS | efi_asus.json, efi_asus.1.json | 559857
+Dell | efi_dell.json | 485970
+Gigabyte | efi_gigabyte.json | 168119
+HP | efi_hp.json | 102631
+Intel | efi_intel.json | 106924
+Lenovo | efi_lenovo.json | 166212
+MSI | efi_msi.json | 271365
+**Total** | | **1910649**
 
 
 # Acknowledgements
